@@ -12,8 +12,8 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        val myWebView = findViewById<View>(R.id.webview) as WebView
 
+        val myWebView = findViewById<View>(R.id.webview) as WebView
         myWebView.apply {
             // Configure related browser settings
             this.settings.loadsImagesAutomatically = true
